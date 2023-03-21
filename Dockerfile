@@ -1,8 +1,8 @@
 FROM ubuntu:latest
 LABEL maintainer = "Bill Clark (bill@billclark.io)"
 LABEL github_url = "https://github.com/brav0charlie/ubuntu-base-amd64"
-LABEL org.opencontainers.image.source = "https://github.com/brav0charlie/ubuntu-base-amd64"
-LABEL org.opencontainers.image.description = "A customized amd64 Ubuntu 22.04 LTS-based docker base image created for use in various docker projects."
+LABEL org.opencontainers.image.source="https://github.com/brav0charlie/ubuntu-base-amd64"
+LABEL org.opencontainers.image.description="A customized amd64 Ubuntu 22.04 LTS-based docker base image created for use in various docker projects."
 
 # Install preferred packages (libnuma-dev required to run cardano-node binary)
 RUN DEBIAN_FRONTEND=noninteractive apt-get update \
