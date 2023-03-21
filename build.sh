@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set image name. Default name provided.
-IMAGE_NAME="ubuntu-base-arm64"
+IMAGE_NAME="ubuntu-base-amd64"
 
 # Set tag to first provided argument, otherwise default to "latest"
 if [ -z "$1" ]; then
