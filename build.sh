@@ -26,7 +26,7 @@ echo -e "$INFO [$TIMESTAMP] You are currently running: $(head -1 /etc/os-release
 echo -e "$INFO [$TIMESTAMP] Building image: $IMAGE_NAME:$TAG"
 
 # Build image
-#docker build -t $IMAGE_NAME:$TAG .
+docker build -t $IMAGE_NAME:$TAG .
 
 # Log: Success or failure
 if [ $? -eq 0 ]; then
